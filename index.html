@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AS Designer | Criação de sites profissionais para empresas</title>
+<meta name="description" content="A AS Designer cria sites modernos, personalizados e responsivos para empresas, com WhatsApp integrado e publicação. Solicite seu orçamento.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="AS Designer | Sites profissionais para empresas">
+<meta property="og:description" content="Sites modernos, personalizados e responsivos para destacar sua empresa no mundo digital.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Unbounded:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--cd:#0d0d0d;--ln:#242424;--tx:#fff;--mu:#a6a6a6;--bl:#1447ff;--bl2:#7196ff;--fh:Unbounded,"Arial Black",system-ui,sans-serif;--fb:Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,::before,::after{box-sizing:inherit;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+body{background:var(--bg);color:var(--tx);font:400 16px/1.65 var(--fb);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--bl2);outline-offset:3px}
+.sk{position:absolute;left:-999px}.sk:focus{left:16px;top:calc(8px + env(safe-area-inset-top,0px));z-index:99;background:#fff;color:#000;padding:8px 14px;border-radius:8px}
+.w{width:min(1120px,100% - 40px);margin-inline:auto}
+section{padding:96px 0}
+h1,h2,h3{font-family:var(--fh);line-height:1.2;letter-spacing:-.02em}
+h1{font-size:clamp(28px,5.4vw,48px);font-weight:800}
+h2{font-size:clamp(24px,4vw,36px);font-weight:800;max-width:20ch}
+h3{font-size:17px;font-weight:600}
+.lead{color:var(--mu);font-size:18px;max-width:52ch}
+.hd{margin-bottom:44px;display:grid;gap:14px}.hd p{color:var(--mu);max-width:56ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 28px;border-radius:99px;background:var(--bl);border:1px solid var(--bl);color:#fff;font-weight:700;text-decoration:none;transition:transform .25s,box-shadow .25s,border-color .25s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 14px 34px -10px var(--bl)}
+.btn.o{background:none;border-color:#3a3a3a}.btn.o:hover{border-color:var(--bl2);box-shadow:none}
+header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);background:rgba(0,0,0,.82);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--ln)}
+.hb{height:68px;display:flex;align-items:center;justify-content:space-between}
+.lg{font:800 17px var(--fh);text-decoration:none}.lg span{color:var(--bl2)}
+nav{display:flex;align-items:center;gap:28px}
+nav a:not(.btn){color:var(--mu);text-decoration:none;font-size:14px;font-weight:600;transition:color .2s}nav a:not(.btn):hover{color:#fff}
+nav .btn{min-height:42px;padding:0 20px;font-size:14px}
+.mn{display:none;width:44px;height:44px;background:none;border:1px solid var(--ln);border-radius:10px;color:#fff;font-size:20px;cursor:pointer}
+.hero{padding:132px 0 88px;background:radial-gradient(50% 60% at 85% 25%,rgba(20,71,255,.3),transparent 70%)}
+.hg{display:grid;gap:56px;align-items:center;grid-template-columns:1.05fr .95fr}
+.hg>div:first-child{animation:up .8s both}
+.hero .lead{margin:22px 0 32px}
+.bt{display:flex;flex-wrap:wrap;gap:12px}
+.ck{list-style:none;padding:0;margin-top:34px;display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--mu);font-size:14px;font-weight:600}
+.ck li::before,.inc li::before{content:"✓";color:var(--bl2);margin-right:8px;font-weight:800}
+.mk{position:relative;padding-bottom:36px;animation:up .9s .15s both}
+.br{border:1px solid #2c2c2c;border-radius:12px;background:var(--cd);box-shadow:0 40px 90px -40px var(--bl)}
+.bh{display:flex;gap:6px;padding:12px;border-bottom:1px solid var(--ln)}.bh i{width:9px;height:9px;border-radius:50%;background:#333}
+.bb,.ph{display:grid;gap:10px;align-content:start}.bb{padding:24px}
+.bb i,.ph i{display:block;height:10px;border-radius:5px;background:#262626}
+.bb .t,.ph .t{height:18px;width:72%;background:#fff}
+.bb b,.ph b{display:block;width:110px;height:32px;border-radius:99px;background:var(--bl);margin:6px 0}
+.tl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.tl u{height:64px;border-radius:8px;background:#161616;border:1px solid var(--ln)}
+.ph{position:absolute;right:-8px;bottom:0;width:104px;height:196px;padding:16px 12px;border:3px solid #333;border-radius:20px;background:#050505;box-shadow:0 24px 50px -10px #000;animation:fl 6s 1s ease-in-out infinite}
+.ph b{width:70px;height:26px}
+@keyframes up{from{opacity:0;translate:0 30px}}@keyframes fl{50%{translate:0 -10px}}
+.alt{background:#080808}
+.lt{--tx:#000;--mu:#4d4d4d;--ln:#e2e2e2;--bl2:var(--bl);background:#fff;color:var(--tx)}
+.sb{display:grid;gap:40px;grid-template-columns:1fr 1fr;align-items:start}
+.tri{font:800 clamp(18px,3vw,24px)/1.3 var(--fh);margin-top:26px;color:var(--bl)}
+.g{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(var(--m,270px),100%),1fr))}
+.s{--m:200px}
+.cd{display:flex;flex-direction:column;gap:10px;padding:28px;border:1px solid var(--ln);border-radius:14px;background:var(--cd);transition:transform .3s,border-color .3s,box-shadow .3s}
+.cd:hover{transform:translateY(-6px);border-color:var(--bl);box-shadow:0 24px 50px -30px var(--bl)}
+.cd p{color:var(--mu);font-size:15px;flex:1}
+.ic{font-size:28px;line-height:1}
+.pr{font:800 28px var(--fh);margin-top:6px}
+.cd .btn{margin-top:8px;min-height:46px;padding:0 20px;font-size:15px}
+.sub{font:600 15px var(--fh);color:var(--bl2);margin:0 0 16px}.sub.n{margin-top:48px}
+.inc{list-style:none;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))}
+.inc li{padding:18px 20px;border:1px solid var(--ln);border-radius:12px;background:var(--cd);font-weight:600;transition:border-color .3s}.inc li:hover{border-color:var(--bl)}
+.mo{transition:transform .3s}.mo:hover{transform:translateY(-6px)}
+.mv{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;align-content:start;height:178px;padding:16px;border:1px solid var(--ln);border-top:3px solid var(--c);border-radius:12px;background:var(--cd)}
+.mv em{grid-column:1/-1;font-style:normal;font-size:28px;line-height:1}
+.mv i{grid-column:1/-1;height:12px;width:62%;border-radius:4px;background:var(--c)}
+.mv b{grid-column:1/-1;height:8px;width:88%;border-radius:4px;background:#2a2a2a}
+.mv u{height:44px;border-radius:8px;background:#181818;border-bottom:2px solid var(--c)}
+.mo figcaption{padding:12px 2px;font-weight:700}.mo small{display:block;color:var(--mu);font-weight:400;font-size:13px}
+.c1{margin-top:36px}
+.ad{list-style:none;padding:0;max-width:720px}
+.ad li{display:flex;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--ln);font-weight:600}
+.ad b{font-family:var(--fh);font-size:15px;color:var(--bl);white-space:nowrap}
+.nt{margin-top:22px;color:var(--mu);font-size:14px}
+.stp{list-style:none;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr))}
+.stp li{padding:26px 4px 0;border-top:2px solid var(--bl)}
+.stp b{font:800 34px var(--fh);color:var(--bl2)}
+.stp h3{margin:14px 0 6px}.stp p{color:var(--mu);font-size:15px}
+.fq{max-width:780px;display:grid;gap:10px}
+details{border:1px solid var(--ln);border-radius:12px;background:var(--cd);transition:border-color .3s}
+details[open]{border-color:var(--bl)}
+summary{cursor:pointer;padding:20px 22px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--bl2);font-size:22px;line-height:1;transition:rotate .3s}
+details[open] summary::after{rotate:45deg}
+details p{padding:0 22px 20px;color:var(--mu)}
+.fin{text-align:center;background:radial-gradient(60% 90% at 50% 100%,rgba(20,71,255,.45),transparent 70%),#000;border-block:1px solid var(--ln)}
+.fin h2{margin:0 auto 18px;max-width:22ch}.fin p{color:var(--mu);max-width:52ch;margin:0 auto 34px}
+.fin .btn{min-height:60px;padding:0 44px;font-size:17px;letter-spacing:.04em}
+.ct{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
+.ct h3{font:600 14px var(--fb);letter-spacing:0;color:var(--mu)}
+.ct a,.ct p{font-size:17px;font-weight:700;color:var(--tx);text-decoration:none}.ct a:hover{color:var(--bl2)}
+footer{padding:56px 0 100px;border-top:1px solid var(--ln);color:var(--mu);font-size:14px}
+.fg{display:grid;gap:32px;grid-template-columns:1.3fr 1fr 1fr}
+footer ul{list-style:none;padding:0;display:grid;gap:8px}footer a{text-decoration:none}footer a:hover{color:#fff}
+.cp{margin-top:36px;padding-top:22px;border-top:1px solid var(--ln)}
+.fw{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;display:flex;align-items:center;gap:10px;min-height:54px;padding:0 20px 0 16px;border-radius:99px;background:var(--bl);color:#fff;font-weight:700;text-decoration:none;box-shadow:0 12px 30px -8px var(--bl);transition:transform .25s}
+.fw:hover{transform:translateY(-3px) scale(1.03)}.fw svg{width:24px;height:24px;fill:#fff}
+@media(max-width:900px){.mn{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 22px;background:#000;border-bottom:1px solid var(--ln)}nav.o{display:flex}nav a:not(.btn){padding:14px 0;border-bottom:1px solid var(--ln);font-size:16px}nav .btn{margin-top:16px}}
+@media(max-width:860px){.hg,.sb,.fg{grid-template-columns:1fr}}
+@media(max-width:600px){section{padding:64px 0}.hero{padding:112px 0 64px}.lead{font-size:16px}.ph{right:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,::before,::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="sk" href="#main">Pular para o conteúdo</a>
+<header><div class="w hb"><a class="lg" href="#inicio" aria-label="AS Designer, início">AS<span> DESIGNER</span></a>
+<button class="mn" aria-label="Menu" aria-expanded="false" aria-controls="nv">☰</button>
+<nav id="nv" aria-label="Principal"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#planos">Planos</a><a href="#diferenciais">Diferenciais</a><a href="#faq">FAQ</a><a href="#contato">Contato</a><a class="btn wa" href="#contato">Solicitar orçamento</a></nav></div></header>
+<main id="main">
+<section class="hero" id="inicio"><div class="w hg"><div>
+<h1>Seu negócio merece um site profissional.</h1>
+<p class="lead">Criamos sites modernos, personalizados e responsivos para destacar sua empresa no mundo digital.</p>
+<div class="bt"><a class="btn wa" href="#contato">Solicitar orçamento</a><a class="btn o" href="#planos">Ver planos</a></div>
+<ul class="ck"><li>Design personalizado</li><li>Responsivo</li><li>WhatsApp integrado</li><li>Publicação do site</li></ul></div>
+<div class="mk" aria-hidden="true"><div class="br"><div class="bh"><i></i><i></i><i></i></div><div class="bb"><i class="t"></i><i></i><i style="width:55%"></i><b></b><div class="tl"><u></u><u></u><u></u></div></div></div><div class="ph"><i class="t"></i><i></i><b></b></div></div></div></section>
+
+<section class="lt" id="sobre"><div class="w sb"><h2>Seu negócio online, do jeito certo.</h2><div><p class="lead">A AS Designer cria sites profissionais para empresas que querem fortalecer sua presença digital, transmitir credibilidade e facilitar o contato com seus clientes.</p><p class="tri">Design + Tecnologia + Resultado</p></div></div></section>
+
+<section id="servicos"><div class="w"><div class="hd"><h2>Escolha o site ideal para o seu negócio</h2><p>Cada projeto é desenvolvido de acordo com a sua empresa. Escolha o formato e fale com a gente pelo WhatsApp.</p></div>
+<h3 class="sub" id="planos">Planos</h3>
+<div class="g">
+<article class="cd"><span class="ic">🌐</span><h3>Site Básico</h3><p>Página inicial, informações da empresa, serviços, contato, WhatsApp e redes sociais.</p><div class="pr">R$ 199</div><a class="btn wa" href="#contato">Quero este site</a></article>
+<article class="cd"><span class="ic">💻</span><h3>Site Profissional</h3><p>Site completo, várias seções, galeria, serviços/produtos, WhatsApp, redes sociais e localização.</p><div class="pr">R$ 349</div><a class="btn wa" href="#contato">Quero este site</a></article>
+<article class="cd"><span class="ic">✨</span><h3>Site Premium</h3><p>Site completo + catálogo, animações, agendamento, formulário, galeria e personalização avançada.</p><div class="pr">R$ 499</div><a class="btn wa" href="#contato">Quero este site</a></article>
+</div>
+<h3 class="sub n">Para o seu segmento</h3>
+<div class="g" style="--m:240px">
+<article class="cd"><span class="ic">🛒</span><h3>Site para Loja</h3><p>Catálogo de produtos, categorias, preços, fotos e pedidos pelo WhatsApp.</p><div class="pr">R$ 449</div><a class="btn wa" href="#contato">Quero este site</a></article>
+<article class="cd"><span class="ic">🍕</span><h3>Site para Restaurante/Pizzaria</h3><p>Cardápio digital, categorias, fotos, preços, pedidos pelo WhatsApp, localização e horários.</p><div class="pr">R$ 399</div><a class="btn wa" href="#contato">Quero este site</a></article>
+<article class="cd"><span class="ic">💈</span><h3>Site para Barbearia/Salão</h3><p>Serviços, preços, galeria, localização, redes sociais e agendamento pelo WhatsApp.</p><div class="pr">R$ 349</div><a class="btn wa" href="#contato">Quero este site</a></article>
+<article class="cd"><span class="ic">🚗</span><h3>Site para Lava-Jato</h3><p>Serviços, preços, galeria, localização, horários e agendamento pelo WhatsApp.</p><div class="pr">R$ 349</div><a class="btn wa" href="#contato">Quero este site</a></article>
+</div></div></section>
+
+<section class="alt" id="incluso"><div class="w"><div class="hd"><h2>O que está incluso</h2></div>
+<ul class="inc"><li>Design personalizado</li><li>Site responsivo para celular e computador</li><li>Botão de WhatsApp</li><li>Links para Instagram e outras redes</li><li>Informações da empresa</li><li>Fotos e imagens fornecidas pelo cliente</li><li>Localização quando aplicável</li><li>Seções personalizadas conforme o negócio</li><li>Publicação do site</li><li>Sem cobrança de hospedagem pela AS Designer</li></ul></div></section>
+
+<section id="portfolio"><div class="w"><div class="hd"><h2>Projetos que podemos criar para sua empresa</h2><p>Exemplos visuais de como o site do seu negócio pode ficar. São demonstrações, não clientes reais da AS Designer.</p></div>
+<div class="g" style="--m:300px">
+<figure class="mo" style="--c:#f5c400"><div class="mv"><em>🚗</em><i></i><b></b><u></u><u></u><u></u></div><figcaption>Lava-jato<small>Exemplo visual</small></figcaption></figure>
+<figure class="mo" style="--c:#e8e8e8"><div class="mv"><em>💈</em><i></i><b></b><u></u><u></u><u></u></div><figcaption>Barbearia<small>Exemplo visual</small></figcaption></figure>
+<figure class="mo" style="--c:#e5432d"><div class="mv"><em>🍕</em><i></i><b></b><u></u><u></u><u></u></div><figcaption>Pizzaria<small>Exemplo visual</small></figcaption></figure>
+<figure class="mo" style="--c:#22c55e"><div class="mv"><em>🛒</em><i></i><b></b><u></u><u></u><u></u></div><figcaption>Loja<small>Exemplo visual</small></figcaption></figure>
+<figure class="mo" style="--c:#7196ff"><div class="mv"><em>🛠️</em><i></i><b></b><u></u><u></u><u></u></div><figcaption>Empresa de serviços<small>Exemplo visual</small></figcaption></figure>
+<figure class="mo" style="--c:#f59e0b"><div class="mv"><em>🍽️</em><i></i><b></b><u></u><u></u><u></u></div><figcaption>Restaurante<small>Exemplo visual</small></figcaption></figure>
+</div>
+<a class="btn wa c1" href="#contato" data-m="gostaria de criar o site da minha empresa e solicitar um orçamento.">Quero criar meu site</a></div></section>
+
+<section class="alt" id="diferenciais"><div class="w"><div class="hd"><h2>Por que escolher a AS Designer</h2></div>
+<div class="g s">
+<article class="cd"><span class="ic">🚀</span><h3>Design moderno</h3><p>Seu site com aparência profissional e atual.</p></article>
+<article class="cd"><span class="ic">📱</span><h3>Responsivo</h3><p>Perfeito para celulares, tablets e computadores.</p></article>
+<article class="cd"><span class="ic">💬</span><h3>WhatsApp integrado</h3><p>Facilite o contato direto com seus clientes.</p></article>
+<article class="cd"><span class="ic">🎨</span><h3>Personalização</h3><p>Cada projeto é desenvolvido de acordo com o negócio.</p></article>
+<article class="cd"><span class="ic">⚡</span><h3>Experiência</h3><p>Sites pensados para apresentar sua empresa de forma clara e profissional.</p></article>
+</div></div></section>
+
+<section class="lt" id="adicionais"><div class="w"><div class="hd"><h2>Serviços adicionais</h2></div>
+<ul class="ad"><li>Página/seção extra<b>+ R$ 30</b></li><li>Catálogo adicional<b>+ R$ 50</b></li><li>Sistema de agendamento personalizado<b>+ R$ 80</b></li><li>Alterações após aprovação<b>a partir de R$ 30</b></li><li>Manutenção/alterações futuras<b>a partir de R$ 30</b></li></ul>
+<p class="nt">Valores podem variar de acordo com a complexidade do projeto.</p></div></section>
+
+<section id="como"><div class="w"><div class="hd"><h2>Como funciona</h2></div>
+<ol class="stp"><li><b>01</b><h3>Entre em contato</h3><p>Fale com a AS Designer pelo WhatsApp.</p></li><li><b>02</b><h3>Escolha seu projeto</h3><p>Defina o tipo de site ideal para sua empresa.</p></li><li><b>03</b><h3>Criação</h3><p>Desenvolvemos o layout e estrutura do seu site.</p></li><li><b>04</b><h3>Publicação</h3><p>Após a aprovação, seu site é publicado.</p></li></ol></div></section>
+
+<section class="alt" id="faq"><div class="w"><div class="hd"><h2>Perguntas frequentes</h2></div>
+<div class="fq">
+<details><summary>O site funciona no celular?</summary><p>Sim. Todos os sites são desenvolvidos de forma responsiva para funcionar em celulares, tablets e computadores.</p></details>
+<details><summary>A hospedagem tem cobrança?</summary><p>A AS Designer não cobra hospedagem pelo serviço apresentado.</p></details>
+<details><summary>Posso colocar meu WhatsApp no site?</summary><p>Sim. O WhatsApp pode ser integrado ao site para facilitar o contato com seus clientes.</p></details>
+<details><summary>Posso colocar Instagram?</summary><p>Sim. O Instagram e outras redes sociais podem ser adicionados.</p></details>
+<details><summary>Posso pedir alterações?</summary><p>Sim. Alterações após a aprovação podem ser realizadas conforme os valores apresentados na seção de serviços adicionais.</p></details>
+</div></div></section>
+
+<section class="fin"><div class="w"><h2>Pronto para colocar sua empresa na internet?</h2><p>Tenha um site profissional, moderno e personalizado para apresentar sua empresa e conquistar mais clientes.</p><a class="btn wa" href="#contato">SOLICITAR ORÇAMENTO</a></div></section>
+
+<section id="contato"><div class="w"><div class="hd"><h2>AS DESIGNER</h2><p>Criação de sites profissionais</p></div>
+<div class="ct">
+<div class="cd"><h3>WhatsApp</h3><a href="https://wa.me/557481160699" target="_blank" rel="noopener">+55 74 8116-0699</a></div>
+<div class="cd"><h3>Instagram</h3><a href="https://www.instagram.com/as_designer26/" target="_blank" rel="noopener">@as_designer26</a></div>
+<div class="cd"><h3>Horário de atendimento</h3><p>Segunda a sábado<br>09:00 às 18:00</p></div>
+</div></div></section>
+</main>
+
+<footer><div class="w"><div class="fg">
+<div><a class="lg" href="#inicio">AS<span> DESIGNER</span></a><p style="margin-top:12px;max-width:34ch">Sites profissionais para empresas que querem crescer no digital.</p></div>
+<ul><li><a href="#inicio">Início</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#planos">Planos</a></li><li><a href="#portfolio">Portfólio</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contato">Contato</a></li></ul>
+<ul><li><a href="https://www.instagram.com/as_designer26/" target="_blank" rel="noopener">Instagram: @as_designer26</a></li><li><a href="https://wa.me/557481160699" target="_blank" rel="noopener">WhatsApp: +55 74 8116-0699</a></li></ul>
+</div><p class="cp">© 2026 AS Designer. Todos os direitos reservados.</p></div></footer>
+
+<a class="fw wa" href="#contato" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg><span>WhatsApp</span></a>
+
+<script>
+(()=>{const d=document,P='Olá! Vim pelo site da AS Designer e ';
+d.querySelectorAll('a.wa').forEach(a=>{const c=a.closest('.cd'),
+m=c?'tenho interesse no '+c.querySelector('h3').textContent+' de '+c.querySelector('.pr').textContent+'. Gostaria de solicitar um orçamento.':a.dataset.m||'gostaria de solicitar um orçamento.';
+a.href='https://wa.me/557481160699?text='+encodeURIComponent(P+m);a.target='_blank';a.rel='noopener'});
+d.querySelectorAll('.ic,.mv em').forEach(e=>e.setAttribute('aria-hidden','true'));
+const n=d.querySelector('nav'),t=d.querySelector('.mn'),s=o=>{n.classList.toggle('o',o);t.setAttribute('aria-expanded',o)};
+t.onclick=()=>s(!n.classList.contains('o'));n.onclick=e=>{if(e.target.closest('a'))s(false)}})()
+</script>
+</body>
+</html>
